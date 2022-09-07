@@ -1,0 +1,18 @@
+html,
+body {
+  height: 100%
+}
+
+.errorMessage {
+  display: none;
+  height: 100vh;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.selectize-input {
+    width: 30% !important;
+}
