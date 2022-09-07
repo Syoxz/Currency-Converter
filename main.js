@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function (){
     })
 
     const myHeaders = new Headers();
-        myHeaders.append("apikey", "asd");
+        myHeaders.append("apikey", "YOUR_API_KEY");
     
     const startCurrency = document.querySelector("#startCurrency");
     const targetCurrency = document.querySelector("#targetCurrency");
