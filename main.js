@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function (){
         .then (handleErrors)
         .then(response => response.json())
         .then(data => fillOptionField(data.symbols))
-        .catch(error => alert('error', error));
+        .catch(error => console.log('error', error));
    
     document.querySelector("form").onsubmit = function () {
         const startCurrencyValue = document.querySelector("#startCurrency").value;
