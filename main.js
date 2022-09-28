@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function (){
     const errorDiv = document.querySelector("#error");
-    const mainDiv = document.querySelector("#mainDiv");
+    const mainDiv = document.querySelector(".container");
 
     const tryAgain = document.querySelector("#reset");
     tryAgain.addEventListener("click", function (){
